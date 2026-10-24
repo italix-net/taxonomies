@@ -1,0 +1,34 @@
+{
+    "name": "italix/taxonomies",
+    "description": "Category trees and tag lists in separate collections, SKOS labels in every language, SKOS mappings between them, and a pre/post-order interval index for O(1) ancestry",
+    "type": "library",
+    "license": "MPL-2.0",
+    "version": "0.3.0",
+    "keywords": [
+        "taxonomy",
+        "categories",
+        "tags",
+        "skos",
+        "nested-sets"
+    ],
+    "homepage": "https://github.com/italix-net/taxonomies",
+    "authors": [
+        {
+            "name": "Italix",
+            "email": "info@italix.net"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "ext-mbstring": "*",
+        "italix/orm": "^2.32"
+    },
+    "require-dev": {
+        "italix/testing": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Italix\\Taxonomies\\": ""
+        }
+    }
+}
